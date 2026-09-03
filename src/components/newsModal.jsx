@@ -1,5 +1,5 @@
 import React from 'react'
-import "./NewsModal.css"
+import "./newsModal.css"
 
 const NewsModal = ({ article, onClose }) => {
   if (!article) {
