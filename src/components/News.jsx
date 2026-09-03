@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import './News.css'
-import "./newsModal.css";
+import './newsModal.css'
+import NewsModal from './newsModal'
 
 const categories = ['top', 'world', 'business', 'technology', 'entertainment', 'sports', 'science', 'health']
 
